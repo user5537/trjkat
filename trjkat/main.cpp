@@ -2,28 +2,8 @@
 
 using namespace std;
 
-bool czy(double a, double b, double c)
-
-{
-if(a<=0 || b <=0 || c<=0) return false;
-return true;
-}
-
-
-bool test()
-{
-    if(czy(0,2,-3) !=false) cout <<"problem 1"<<endl;
-    if(czy(1,2,3) !=false) cout <<"problem 2"<<endl;
-    if(czy(2,2,2) !=true) cout <<"problem 3"<<endl;
-}
-
-
-
 int main()
 {
-
-
- test();
  int a,b,c=0;
  cin>>a;
  cin>>b;
