@@ -21,6 +21,23 @@ bool test()
 
 int main()
 {
+#ifdef TESTY;
+
+#else
+    double a;
+    double b;
+    double c;
+
+
+    cin >>a;
+    cin >>b;
+    cin >>c;
+
+    if(czy(a,b,c)) ==false) cout << "nie";
+        cout << "jest trojkatem"<< endl;
+
+ #endif // TESTY    return 0;
+
 
 
  test();
